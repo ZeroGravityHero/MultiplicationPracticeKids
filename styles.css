@@ -1,0 +1,155 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 22rem;
+    max-width: 22rem;
+    min-height: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border: 3px dashed #aecdff;
+    
+}
+
+#andy {
+    width: 100px;
+    margin-top: 2dvh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#metricsContainer {
+    display: flex;
+    gap: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #241e20;
+}
+
+#resultDescription {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #241e20;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+#firstNumber {
+    margin-left: auto;
+    margin-right: 40%;
+    font-size: 4rem;
+    color: #241e20;
+}
+
+#secondNumber {
+    margin-left: auto;
+    margin-right: 40%;
+    font-size: 4rem;
+    color: #241e20;
+}
+
+#line {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#displayText{
+    margin-left: auto;
+    margin-right: 40%;
+    font-size: 4rem;
+    min-height: 4.6rem;
+    color: #241e20;
+
+}
+
+#numberButtons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+    width: 15rem;
+    height: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+
+
+}
+
+#button0 {
+    grid-column-start: 2;
+}
+
+
+#optionsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    width: 15rem;
+    height: 6rem;
+    gap: .5rem;
+
+}
+
+#submitAnswer {
+    grid-column: 1 / span 3;
+
+}
+
+#startButton {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+#clearButton {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+#restartButton {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.button {
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #71a6fd;
+    color: white;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+
+  }
+  
+  .button:hover {
+    background-color: #aecdff;
+    color: #555555;
+  }
+
+  .buttonOption {
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #71a6fd;
+    color: white;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+  }
+  
+  .buttonOption:hover {
+    background-color: #aecdff;
+    color: #555555;
+  }
